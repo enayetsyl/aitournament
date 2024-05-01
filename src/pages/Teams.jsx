@@ -173,7 +173,7 @@ const Teams = () => {
           and get hyped in a minute
         </p>
         {/* card container */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 mb-10">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 mb-10 mx-auto">
           <StreamCard
             status="ONLINE"
             name="FILIP MRAVIC"

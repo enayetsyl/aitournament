@@ -26,7 +26,7 @@ const Navbar = () => {
   return (
     <div className="max-w-6xl mx-auto">
       <div className="flex justify-between items-center py-10 px-5 text-white">
-        <h1 className="font-bold text-4xl  uppercase">Ai Tournament</h1>
+        <h1 className="font-bold text-2xl lg:text-4xl  uppercase">Ai Tournament</h1>
         <div className="">
           <div className="hidden lg:block ">
             <ul className="flex justify-center items-center gap-5 cursor-pointer">
@@ -37,7 +37,7 @@ const Navbar = () => {
           </div>
            {/* menu small screen */}
            <div className="lg:hidden relative" ref={dropdownRef}>
-          <div className="text-xl text-accent border border-accent px-5 py-1 rounded-md" onClick={toggleDropdown}>
+          <div className="text-xl  px-5 py-1 " onClick={toggleDropdown}>
           <GiHamburgerMenu />
           </div>
           {isDropdownOpen && (
