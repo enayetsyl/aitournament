@@ -10,7 +10,7 @@ const StreamCard = ({image, status, name, subtitle}) => {
       backgroundRepeat: "no-repeat",
       height: "250px",
     }}
-    className="w-[400px] mx-auto"
+    className="min-w-[400px] mx-auto"
     >
       <div className="bg-black bg-clip-padding backdrop-filter bg-opacity-70  h-full w-full">
         <div className="flex justify-end items-center p-5 text-white gap-2 text-base font-semibold ">
